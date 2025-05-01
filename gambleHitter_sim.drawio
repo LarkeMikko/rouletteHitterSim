@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="rvPo6M2CkUhuG22oaxtt">
+    <mxGraphModel dx="1251" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Gamble hitter sim&lt;/h1&gt;&lt;div&gt;Simple sim that simulates gambler picto effectiness ins expedition 33. In short the picto has 50% chance for every hit do either 50% damage or 200% damage. Program will simulate effectiveness of this when run multiple times. Program will be very simple prototype that assumes every hit player makes has same damage value. For now program will be run only once and with pre determined constant variables, if needed in future program might be modified to take user input and allow running multiple times before terminating.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-2" target="ak8_U5sInBHRbDaeF3ad-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-2" target="ak8_U5sInBHRbDaeF3ad-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-2" target="ak8_U5sInBHRbDaeF3ad-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-2" target="ak8_U5sInBHRbDaeF3ad-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-2" target="ak8_U5sInBHRbDaeF3ad-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-2" target="ak8_U5sInBHRbDaeF3ad-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-2" value="&lt;font&gt;Simulate damage&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-3" value="generate random value between 0 and 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-4" value="store count of each output in variable for low and high hit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-5" value="repeat hit n number of times with loop&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-6" target="ak8_U5sInBHRbDaeF3ad-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-6" target="ak8_U5sInBHRbDaeF3ad-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-6" value="calculate damage from hits" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-7" value="total damage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-8" value="damage / hit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-9" value="print results to console" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-10" value="allow user to set values? (optional, for now it is suitable to just use constant values hardcoded in)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-19" target="ak8_U5sInBHRbDaeF3ad-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-19" target="ak8_U5sInBHRbDaeF3ad-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-19" value="rand 0/1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-20" target="ak8_U5sInBHRbDaeF3ad-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-20" value="start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-21" target="ak8_U5sInBHRbDaeF3ad-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-21" value="int lower ++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-22" target="ak8_U5sInBHRbDaeF3ad-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-22" value="int higher ++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-26" value="totalDmg += hitDmg *0.5&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-27" target="ak8_U5sInBHRbDaeF3ad-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-27" value="totalDmg += hitDmg *2&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-31" target="ak8_U5sInBHRbDaeF3ad-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1040" />
+              <mxPoint x="220" y="580" />
+              <mxPoint x="400" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-31" target="ak8_U5sInBHRbDaeF3ad-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-31" value="damagePerHit = totalDmag / loopIterations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-33" value="is loop completed?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-33" target="ak8_U5sInBHRbDaeF3ad-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-37" value="end" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;endArrow=none;startFill=0;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-39" target="ak8_U5sInBHRbDaeF3ad-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-39" target="ak8_U5sInBHRbDaeF3ad-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-39" value="print report to terminal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-40" target="ak8_U5sInBHRbDaeF3ad-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-40" value="iterations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-41" target="ak8_U5sInBHRbDaeF3ad-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-41" value="total damage&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-42" target="ak8_U5sInBHRbDaeF3ad-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-42" value="count of lows" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="ak8_U5sInBHRbDaeF3ad-43" target="ak8_U5sInBHRbDaeF3ad-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-43" value="count of highs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ak8_U5sInBHRbDaeF3ad-44" value="avg damage per hit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
